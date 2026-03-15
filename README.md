@@ -121,6 +121,6 @@ O projeto atualmente encontra-se em fase de **planejamento e desenvolvimento ini
 
 ---
 
-# 📅 Ano
+#  Ano
 
 2026
