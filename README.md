@@ -1,18 +1,18 @@
 # Sistema de Monitoramento e Gestão de Obras
 
-## 📌 Sobre o Projeto
+## ° Sobre o Projeto
 Este projeto tem como objetivo desenvolver um **dashboard para monitoramento e gestão de obras**, permitindo acompanhar o andamento das atividades, status das obras, responsáveis e prazos de execução.
 
 O sistema busca apresentar essas informações de forma **visual e organizada**, facilitando o acompanhamento do progresso das obras por gestores e responsáveis.
 
 ---
 
-# 🎯 Objetivo do Projeto
+# ° Objetivo do Projeto
 Criar um **dashboard web** simples que permita visualizar informações importantes relacionadas à gestão de obras, como progresso das atividades, status e responsáveis.
 
 ---
 
-# ⚙️ Requisitos do Sistema
+# ° Requisitos do Sistema
 
 ## Requisitos Funcionais
 O sistema deverá permitir:
@@ -32,7 +32,7 @@ O sistema deverá permitir:
 
 ---
 
-# 📊 Regras de Negócio
+# ° Regras de Negócio
 
 O sistema seguirá algumas regras básicas:
 
@@ -43,7 +43,7 @@ O sistema seguirá algumas regras básicas:
 
 ---
 
-# 🧩 Diagramas do Sistema
+# ° Diagramas do Sistema
 
 Para modelagem do sistema serão utilizados:
 
@@ -54,7 +54,7 @@ Esses diagramas ajudam a representar a estrutura do sistema e a interação entr
 
 ---
 
-# 🖥️ Protótipo do Sistema
+# ° Protótipo do Sistema
 
 Foi elaborado um protótipo inicial do dashboard para definir a organização da interface.
 
@@ -70,7 +70,7 @@ O protótipo servirá como base para o desenvolvimento da interface final do sis
 
 ---
 
-# 📋 Organização do Projeto
+# ° Organização do Projeto
 
 O desenvolvimento do projeto está sendo organizado utilizando a metodologia **Kanban**, dividindo as tarefas em:
 
@@ -83,7 +83,7 @@ Essa metodologia permite acompanhar o progresso das atividades do projeto.
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# ° Tecnologias Utilizadas
 
 - HTML
 - CSS
@@ -94,28 +94,30 @@ Essa metodologia permite acompanhar o progresso das atividades do projeto.
 
 ---
 
-# 📈 Status do Projeto
+# ° Status do Projeto
 
 O projeto atualmente encontra-se em fase de **planejamento e desenvolvimento inicial**, com foco na documentação e estruturação do dashboard.
 
 ---
 
-# 👨‍💻 Integrantes do Projeto
+# ° Integrantes do Projeto
 
 - João Breno Oliveira Gonçalves  
-- (Adicionar integrantes do grupo)
+- Lucas Santos Monteiro
+- Danilo Santos Almeida
+- Icaro Mocitaiba Cerqueira Da Cruz
 
 ---
 
-# 📚 Disciplina
+# ° Disciplina
 
 **Processos de Software**
 
 ---
 
-# 👨‍🏫 Professor
+# ° Professor
 
-(Adicionar nome do professor)
+- Rafael Bispo De Souza Neto
 
 ---
 
