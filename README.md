@@ -37,7 +37,7 @@ O sistema deverá permitir:
 O sistema seguirá algumas regras básicas:
 
 - Uma obra pode possuir três status: **Planejamento, Em andamento ou Concluída**
-- Cada obra possui um responsável
+- Cada obra deve possuir pelo menos um responsável
 - Cada obra possui um prazo de entrega
 - O progresso da obra será representado em porcentagem
 
