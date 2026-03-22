@@ -51,7 +51,7 @@ Para modelagem do sistema serão utilizados:
 - <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/cb565cc6-53ec-42e7-95a4-767f4ac10cb8" />
 
 - **Diagrama de Classes**
-- <img width="765" height="921" alt="image" src="https://github.com/user-attachments/assets/58fc4f0c-7283-44d2-96f3-b0bb185a4355" />
+- <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/58fc4f0c-7283-44d2-96f3-b0bb185a4355" />
 
 
 Esses diagramas ajudam a representar a estrutura do sistema e a interação entre os usuários e as funcionalidades.
