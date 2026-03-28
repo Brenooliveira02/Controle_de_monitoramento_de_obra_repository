@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TelaConfiguracoes</title>
+  <link rel="stylesheet" href="../css/TelaConfiguracoes.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">Gestao de Obras</h1>
+      <nav class="menu">
+        <a href="TelaHome.html" class="menu-item">Dashboard</a>
+        <a href="TelaObras.html" class="menu-item">Obras</a>
+        <a href="TelaRelatorios.html" class="menu-item">Relatorios</a>
+        <a href="TelaConfiguracoes.html" class="menu-item active">Configuracoes</a>
+      </nav>
+      <div class="user-box">
+        <div class="avatar">A</div>
+        <div><strong>Admin</strong><p>admin@obras.com</p></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle js-menu-toggle" type="button" aria-label="Abrir menu">&#9776;</button>
+          <div class="search">Buscar obras...</div>
+        </div>
+        <div class="profile-dot"></div>
+      </header>
+
+      <section class="head">
+        <h2>Configuracoes</h2>
+        <p>Gerencie suas preferencias e configuracoes</p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Perfil</h3>
+          <div class="row"><span>Nome</span><strong>Administrador</strong></div>
+          <div class="row"><span>Email</span><strong>admin@gestaoobras.com</strong></div>
+          <div class="row"><span>Cargo</span><strong>Gerente de Projetos</strong></div>
+          <div class="row"><span>Telefone</span><strong>(11) 98888-7777</strong></div>
+        </article>
+
+        <article class="card">
+          <h3>Notificacoes</h3>
+          <div class="row"><span>Alertas de prazo</span><strong>Ativado</strong></div>
+          <div class="row"><span>Atualizacoes de obra</span><strong>Ativado</strong></div>
+          <div class="row"><span>Relatorios semanais</span><strong>Desativado</strong></div>
+          <div class="row"><span>Emails de sistema</span><strong>Ativado</strong></div>
+        </article>
+
+        <article class="card">
+          <h3>Seguranca</h3>
+          <div class="row"><span>Autenticacao em dois fatores</span><strong>Ativado</strong></div>
+          <div class="row"><span>Ultima alteracao de senha</span><strong>15/02/2026</strong></div>
+          <div class="row"><span>Dispositivos conectados</span><strong>3</strong></div>
+          <div class="row"><span>Sessao atual</span><strong>Desktop - Sao Paulo</strong></div>
+        </article>
+
+        <article class="card">
+          <h3>Preferencias</h3>
+          <div class="row"><span>Idioma</span><strong>Portugues (BR)</strong></div>
+          <div class="row"><span>Fuso horario</span><strong>GMT-3</strong></div>
+          <div class="row"><span>Formato de data</span><strong>DD/MM/AAAA</strong></div>
+          <div class="row"><span>Tema da plataforma</span><strong>Claro</strong></div>
+        </article>
+      </section>
+
+      <section class="wide-card">
+        <h3>Comunicacao</h3>
+        <div class="row"><span>Email de suporte</span><strong>suporte@gestaoobras.com</strong></div>
+        <div class="row"><span>Telefone comercial</span><strong>(11) 4000-9090</strong></div>
+        <div class="row"><span>Horario de atendimento</span><strong>Seg a Sex, 08:00 as 18:00</strong></div>
+      </section>
+
+      <section class="actions">
+        <button class="save js-save-config">Salvar Alteracoes</button>
+        <button class="cancel js-cancel-config">Cancelar</button>
+      </section>
+    </main>
+  </div>
+  <script src="../js/app.shared.js" defer></script>
+  <script src="../js/TelaConfiguracoes.js" defer></script>
+</body>
+</html>

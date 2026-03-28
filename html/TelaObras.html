@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TelaObras</title>
+  <link rel="stylesheet" href="../css/TelaObras.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">Gestao de Obras</h1>
+      <nav class="menu">
+        <a href="TelaHome.html" class="menu-item">Dashboard</a>
+        <a href="TelaObras.html" class="menu-item active">Obras</a>
+        <a href="TelaRelatorios.html" class="menu-item">Relatorios</a>
+        <a href="TelaConfiguracoes.html" class="menu-item">Configuracoes</a>
+      </nav>
+      <div class="user-box">
+        <div class="avatar">A</div>
+        <div><strong>Admin</strong><p>admin@obras.com</p></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle js-menu-toggle" type="button" aria-label="Abrir menu">&#9776;</button>
+          <div class="search">Buscar obras...</div>
+        </div>
+        <button class="btn-primary js-nova-obra">+ Nova Obra</button>
+      </header>
+
+      <section class="head">
+        <h2>Obras</h2>
+        <p>Gerencie todas as obras cadastradas</p>
+      </section>
+
+      <section class="filters">
+        <div class="filter-box">
+          <label>Filtrar por Status</label>
+          <select class="js-filtro-status"><option>Todos</option><option>Em Andamento</option><option>Concluida</option><option>Planejamento</option></select>
+        </div>
+        <div class="filter-box">
+          <label>Ordenar por</label>
+          <select class="js-ordenar-por"><option>Nome</option><option>Prazo</option><option>Progresso</option></select>
+        </div>
+      </section>
+
+      <p class="count">Mostrando 1 de 1 obra</p>
+
+      <section class="cards">
+        <a class="obra-link-card js-obra-card-link" href="TelaDetalheObra.html" data-obra-id="obra-001">
+          <article class="obra-card">
+            <h3>Edificio Residencial Solar</h3>
+            <p>Construcao de edificio residencial com 12 andares</p>
+            <span class="tag andamento">Em Andamento</span>
+            <div class="meta"><span>Responsavel:</span><strong>Lucas Monteiro</strong></div>
+            <div class="meta"><span>Prazo:</span><strong>14/06/2026</strong></div>
+            <div class="meta"><span>Progresso</span><strong>50%</strong></div>
+            <div class="progress"><i style="width:50%"></i></div>
+          </article>
+        </a>
+      </section>
+    </main>
+  </div>
+  <script src="../js/app.shared.js" defer></script>
+  <script src="../js/TelaObras.js" defer></script>
+</body>
+</html>

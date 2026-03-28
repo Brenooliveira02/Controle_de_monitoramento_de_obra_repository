@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TelaHome - Dashboard</title>
+  <link rel="stylesheet" href="../css/TelaHome.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">Gestao de Obras</h1>
+      <nav class="menu">
+        <a href="TelaHome.html" class="menu-item active">Dashboard</a>
+        <a href="TelaObras.html" class="menu-item">Obras</a>
+        <a href="TelaRelatorios.html" class="menu-item">Relatorios</a>
+        <a href="TelaConfiguracoes.html" class="menu-item">Configuracoes</a>
+      </nav>
+      <div class="user-box">
+        <div class="avatar">A</div>
+        <div>
+          <strong>Admin</strong>
+          <p>admin@obras.com</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle js-menu-toggle" type="button" aria-label="Abrir menu">&#9776;</button>
+          <div class="search">Buscar obras...</div>
+        </div>
+        <div class="profile-dot"></div>
+      </header>
+
+      <section class="stats-row">
+        <article class="mini-card">
+          <p>Total de Obras</p>
+          <h3>1 <span>+0%</span></h3>
+        </article>
+        <article class="mini-card">
+          <p>Em Andamento</p>
+          <h3>1 <span>+0%</span></h3>
+        </article>
+        <article class="mini-card">
+          <p>Concluidas</p>
+          <h3>0 <span>+0%</span></h3>
+        </article>
+        <article class="mini-card">
+          <p>Planejamento</p>
+          <h3>0 <span class="down">0%</span></h3>
+        </article>
+      </section>
+
+      <section class="highlight-row">
+        <article class="highlight blue">
+          <p>Progresso Medio</p>
+          <h2>50%</h2>
+          <small>Obra ativa atual</small>
+        </article>
+        <article class="highlight purple">
+          <p>Obras Atrasadas</p>
+          <h2>0</h2>
+          <small>Requerem atencao</small>
+        </article>
+        <article class="highlight green">
+          <p>Taxa de Conclusao</p>
+          <h2>0%</h2>
+          <small>Do total de obras</small>
+        </article>
+      </section>
+
+      <section class="charts-row">
+        <article class="panel">
+          <h3>Distribuicao por Status</h3>
+          <div class="pie"></div>
+          <div class="legend">
+            <span><i class="dot andamento"></i>Em Andamento: 100%</span>
+          </div>
+        </article>
+        <article class="panel">
+          <h3>Progresso da Obra</h3>
+          <div class="bars">
+            <div class="bar-single">
+              <div class="bar b1"></div>
+              <p>Edificio Residencial Solar - 50%</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="table-panel">
+        <h3>Obras Recentes</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Obra</th>
+              <th>Status</th>
+              <th>Responsavel</th>
+              <th>Prazo</th>
+              <th>Progresso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a class="obra-link" href="TelaDetalheObra.html" data-obra-id="obra-001">Edificio Residencial Solar</a></td>
+              <td><span class="badge andamento">Em Andamento</span></td>
+              <td>Lucas Monteiro</td>
+              <td>14/06/2026</td>
+              <td>50%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <script src="../js/app.shared.js" defer></script>
+  <script src="../js/TelaHome.js" defer></script>
+</body>
+</html>

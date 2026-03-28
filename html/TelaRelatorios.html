@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TelaRelatorios</title>
+  <link rel="stylesheet" href="../css/TelaRelatorios.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">Gestao de Obras</h1>
+      <nav class="menu">
+        <a href="TelaHome.html" class="menu-item">Dashboard</a>
+        <a href="TelaObras.html" class="menu-item">Obras</a>
+        <a href="TelaRelatorios.html" class="menu-item active">Relatorios</a>
+        <a href="TelaConfiguracoes.html" class="menu-item">Configuracoes</a>
+      </nav>
+      <div class="user-box">
+        <div class="avatar">A</div>
+        <div><strong>Admin</strong><p>admin@obras.com</p></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle js-menu-toggle" type="button" aria-label="Abrir menu">&#9776;</button>
+          <div class="search">Buscar obras...</div>
+        </div>
+        <button class="btn-primary js-gerar-relatorio">Gerar Relatorio</button>
+      </header>
+
+      <section class="head">
+        <h2>Relatorios</h2>
+        <p>Visualize e baixe relatorios das obras</p>
+      </section>
+
+      <section class="metrics">
+        <article class="metric blue"><p>Total de Relatorios</p><h3>1</h3><small>Disponivel para download</small></article>
+        <article class="metric green"><p>Ultimo Mes</p><h3>1</h3><small>Relatorio gerado</small></article>
+        <article class="metric orange"><p>Proximo Relatorio</p><h3>14 de Junho</h3><small>Relatorio final previsto</small></article>
+      </section>
+
+      <section class="list">
+        <article class="report"><div class="icon"></div><div><h4>Relatorio de Fiscalizacao - Edificio Residencial Solar</h4><p>14/03/2026</p><span class="tag">Andamento</span></div><a class="btn-link js-abrir-relatorio" href="TelaDetalheObra.html" data-obra-id="obra-001">Abrir</a></article>
+      </section>
+    </main>
+  </div>
+  <script src="../js/app.shared.js" defer></script>
+  <script src="../js/TelaRelatorios.js" defer></script>
+</body>
+</html>

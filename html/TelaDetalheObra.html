@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TelaDetalheObra</title>
+  <link rel="stylesheet" href="../css/TelaDetalheObra.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1 class="logo">Gestao de Obras</h1>
+      <nav class="menu">
+        <a href="TelaHome.html" class="menu-item">Dashboard</a>
+        <a href="TelaObras.html" class="menu-item active">Obras</a>
+        <a href="TelaRelatorios.html" class="menu-item">Relatorios</a>
+        <a href="TelaConfiguracoes.html" class="menu-item">Configuracoes</a>
+      </nav>
+      <div class="user-box">
+        <div class="avatar">A</div>
+        <div><strong>Admin</strong><p>admin@obras.com</p></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="menu-toggle js-menu-toggle" type="button" aria-label="Abrir menu">&#9776;</button>
+          <div class="search">Buscar obras...</div>
+        </div>
+        <a class="back-btn js-back-obras" href="TelaObras.html">Voltar para Obras</a>
+      </header>
+
+      <section class="head">
+        <h2>Edificio Residencial Solar</h2>
+        <p>Status: <span class="tag andamento">Em Andamento</span></p>
+      </section>
+
+      <section class="overview">
+        <article><p>Responsavel</p><strong>Lucas Monteiro</strong></article>
+        <article><p>Prazo Final</p><strong>14/06/2026</strong></article>
+        <article><p>Progresso</p><strong>50%</strong></article>
+      </section>
+
+      <section class="data-panel">
+        <h3> Planilha do Edificio Residencial Solar</h3>
+        <p>APENAS: DADOS TRATADOS</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ITEM</th>
+                <th>DESCRICAO</th>
+                <th>UND</th>
+                <th>QTD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>02-01-01-024</td><td>ADIC. HORA EXTRA 70% (ELETRICISTA)</td><td>H</td><td>350</td></tr>
+              <tr><td>71-19-33-035</td><td>CABO OTICO COM 06 FIBRAS</td><td>M</td><td>60</td></tr>
+              <tr><td>01-22-01-020</td><td>REMOCAO DE FORRO DE GESSO GUIA DE CABO</td><td>M2</td><td>220</td></tr>
+              <tr><td>85-23-22-004</td><td>HORIZONTAL 1U PATCH CORD AZUL</td><td>UN</td><td>4</td></tr>
+              <tr><td>85-23-22-007</td><td>1,5M CAT 6</td><td>UN</td><td>80</td></tr>
+              <tr><td>85-23-22-003</td><td>BANDEJA FIXA PARA RACK 19</td><td>UN</td><td>2</td></tr>
+              <tr><td>85-23-22-008</td><td>VOICE PANEL 30 POSICOES</td><td>UN</td><td>1</td></tr>
+              <tr><td>64-23-74-017</td><td>COLA PARA RODAPE POLIESTIRENO</td><td>UN</td><td>5</td></tr>
+              <tr><td>85-23-22-010</td><td>IDENTIFICACAO DE PONTOS</td><td>UN</td><td>24</td></tr>
+              <tr><td>85-23-22-009</td><td>CERTIFICACAO DE PONTOS CAT 6</td><td>UN</td><td>24</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="../js/app.shared.js" defer></script>
+  <script src="../js/TelaDetalheObra.js" defer></script>
+</body>
+</html>
